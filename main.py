@@ -25,3 +25,26 @@ print(shopping_list)
 
 shopping_list.pop(2)
 print(shopping_list)
+
+# For loop
+name = input("Enter your name:")
+index = 0
+while name != "" and index < len(name):
+    print(name[index])
+    index += 1
+
+# Using for
+name = input("Enter your name:")
+for character in name:
+    print(character)
+
+# Range
+for number in range (3,10,2):
+    print(number)
+
+for number in range (4):
+    print("I am so cool")
+
+# Convert a range to a list
+number = list(range(2,7))
+print(number)
