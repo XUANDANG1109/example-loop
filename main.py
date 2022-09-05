@@ -48,3 +48,28 @@ for number in range (4):
 # Convert a range to a list
 number = list(range(2,7))
 print(number)
+
+# practice
+number = int(input("Input the number:"))
+factorial = 1
+if number <= 0:
+    print("Thanks and bye!")
+else:
+    for i in range(1,number+1):
+        factorial = factorial * i
+        i = i+1
+    print("The factorial of", number, "is", factorial)
+
+# another
+number = int(input("Input the number:"))
+factorial = 1
+i = 1
+while number <= 0:
+    number = int(input("Input the number:"))
+    print ("Thanks and bye!")
+    break
+
+    while number >= i:
+        factorial = factorial * i
+        i += 1
+    print("The factorial of", number, "is", factorial)
