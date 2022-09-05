@@ -60,16 +60,4 @@ else:
         i = i+1
     print("The factorial of", number, "is", factorial)
 
-# another
-number = int(input("Input the number:"))
-factorial = 1
-i = 1
-while number <= 0:
-    number = int(input("Input the number:"))
-    print ("Thanks and bye!")
-    break
 
-    while number >= i:
-        factorial = factorial * i
-        i += 1
-    print("The factorial of", number, "is", factorial)
